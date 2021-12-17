@@ -1,0 +1,175 @@
+body {
+    /* background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("img/2.png"); */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    color: orange;
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+
+}
+h1:hover{
+    -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: orange;
+  -webkit-text-stroke-color: white;
+}
+h2 {
+    font-size: 5rem;
+    font-weight: 60;
+    line-height: 2rem;
+    text-align: center;
+}
+.title:hover{
+    color: orange;
+  letter-spacing: 2px;
+  animation: move linear 2000ms finite;
+   -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: white;
+  -webkit-text-stroke-color: white;
+}
+h3 {
+    transform: none;
+    transition: all 0.7s ease-out;
+    font-size: 3rem;
+    line-height: 2rem;
+}
+.nav-links {
+    color: #DDE4F4;
+    font-size: 34px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+.nav-Todos {
+    padding-inline-start: 400px;
+    flex-basis: 100%;
+    flex-grow: 4;
+    align-items: center;
+    padding-bottom: 1.2rem !important;
+    background-color: black;
+    border-radius: 40px;
+}
+.nav-Todos:hover {
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: white;
+  -webkit-text-stroke-color: white;
+    border: 2px solid white;
+    /*transition: 0.5s;*/
+    /*transform: scale(1.1);*/
+}
+.title {
+    font-size: 5rem;
+    font-weight: 60;
+    line-height: 0.2rem;
+    text-align: center;
+    color: orange;
+}
+.subtitle {
+   font-size: 28px;
+    color: white;
+    text-align: center;
+}
+.subtitle:hover{
+ color: white;
+  letter-spacing: 2px;
+  animation: move linear 2000ms finite;
+   -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: white;
+  -webkit-text-stroke-color: white;
+}
+.controls .vert {
+    font-size: 18px;
+    color: #222;
+    width: auto;
+    display: block;
+    float: left;
+    line-height: 44px;
+}
+div, footer, section, form, article, main, adress {
+    display: block;
+    width: 100%;
+    font-size: inherit;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.section_title {
+    font-size: 4rem;
+    font-weight: 60;
+    line-height: 1rem;
+    text-align: left;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+}
+.section_title:hover {
+    color: transparent;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 500px;  
+}
+
+.pg1{
+    /*background: url(img/nevada1.jpeg);
+    */width: 400px;
+    height: 300px;
+    aspect-ratio: auto 400 / 500;
+    transition: .5s;
+    border-radius: 14px ;
+    float: left;
+    margin: 20px;
+    border: 2px solid blue;
+}
+
+.bg-item{
+    background: #222;
+    width: 1300px;
+    height: 700px;
+    padding-top: 4rem;
+    border-radius: 10%;
+    filter: opacity(70%);
+    border: 2px solid white;
+    margin: 22px;
+}
+.final{
+   padding-inline-start: 525px;
+    flex-basis: 100%;
+    flex-grow: 4;
+    align-items: center;
+    padding-bottom: 0.2rem;
+    background-color: black;
+    padding-top: 1rem;
+    filter: opacity(100%);
+}
+.text-fin{
+    font-size: 1.5rem;
+    color: yellow;
+}
+.text-fin:hover {
+    font-size: 1.5rem;
+    color: transparent;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #ffffff;
+    transition: 0.5s;
+}
